@@ -17,6 +17,11 @@ You follow a simple daily rhythm and a weekly **Memory Day**, and the companion 
 
 **No code and no installation.** If your LLM interface lets you paste text or attach files, it works. It was designed for local models (LM Studio, Ollama), but the same files work with any chat model that has a large enough context window.
 
+## Two ways to run it
+
+- **Manual:** Paste the Mind files into any LLM and follow the routine in the L0 guide. This works with any model that has a large enough context window.
+- **Automated:** The [**Companion App**](app/) is a local GUI for [Ollama](https://ollama.com). It handles every step on its own: timestamps, loading the Mind files, hourly short-term memories, nightly distillation, Memory Day, planned events and name discovery. It's Python with the standard library only. Double-click `app/Start Companion.bat` or run `python app/companion_app.py`. See the [app README](app/README.md).
+
 ## The Mind Levels
 
 | File | Who it's for | Purpose |
